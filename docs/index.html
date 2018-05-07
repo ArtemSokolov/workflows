@@ -35,12 +35,6 @@
 
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-<li>
-  <a href="index.html">
-    <span class="fa fa-home fa-lg"></span>
-     
-  </a>
-</li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
     DGE
@@ -84,7 +78,7 @@
 <div id="installation-instructions" class="section level2">
 <h2 class="hasAnchor">
 <a href="#installation-instructions" class="anchor"></a>Installation instructions</h2>
-<p>While individual workflows can be run independently, it is strongly recommended to install the R package associated with this repository. The package will automatically install all the necessary dependencies and provide a <code>getData()</code> function that can be used to quickly retrieve the example datasets used by individual workflows. To install the package, simply run the following commands in your R shell:</p>
+<p>While individual workflows can be run independently, it is strongly recommended to install the R package associated with this repository. The package will automatically install all the necessary dependencies and provide a <code><a href="reference/getData.html">getData()</a></code> function that can be used to quickly retrieve the example datasets used by individual workflows. To install the package, simply run the following commands in your R shell:</p>
 <div class="sourceCode"><pre class="sourceCode R"><code class="sourceCode r"><span class="cf">if</span>( <span class="op">!</span><span class="kw">require</span>(devtools) ) <span class="kw">install.packages</span>( <span class="st">"devtools"</span> )
 devtools<span class="op">::</span><span class="kw"><a href="http://www.rdocumentation.org/packages/devtools/topics/install_github">install_github</a></span>( <span class="st">"datarail/workflows"</span> )</code></pre></div>
 </div>

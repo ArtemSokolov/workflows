@@ -1,8 +1,7 @@
 navbar:
   title: ~
+  type: default
   left:
-    - icon: fa-home fa-lg
-      href: index.html
     - text: DGE
       menu:
       - text: Wrangling bcbio output
@@ -13,7 +12,7 @@ navbar:
       href: reference/index.html
   
 reference:
-- title: All functions
+- title: Data
   desc: ~
   contents: '`getData`'
 
